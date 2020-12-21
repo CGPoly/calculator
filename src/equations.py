@@ -813,7 +813,7 @@ def parser(tokens: list) -> Expression:
     return Expression.parse(tokens)()
 
 
-def translate(string: str) -> Expression:
+def translate(string: str):
     """
     translates an string into an Expression
     :param string: the string, that should be translated
