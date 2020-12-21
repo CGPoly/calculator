@@ -294,7 +294,7 @@ class Expression:
 
 class Term:
     """
-    
+    A class that stores Terms
     """
     def __init__(self, multiply: bool):
         self.multiply: bool = multiply  # True: *; False: / for expression before it (* or / of wirst expr is irrelevant)
