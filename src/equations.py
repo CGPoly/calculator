@@ -293,6 +293,9 @@ class Expression:
 
 
 class Term:
+    """
+    
+    """
     def __init__(self, multiply: bool):
         self.multiply: bool = multiply  # True: *; False: / for expression before it (* or / of wirst expr is irrelevant)
         self.next: (Term, None) = None  # next Term to be multiplyed; stops chain if None
